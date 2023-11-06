@@ -12,8 +12,8 @@
             <Entry Text="{Binding nombre}" x:Name="txtnombre1" Placeholder="Nombre" Keyboard="Text" Margin="30,10,30,0" FontSize="15"/>
             <Entry Text="{Binding apellido}" x:Name="txtapellido1" Placeholder="Apellido" Keyboard="Text" Margin="30,0,30,0" FontSize="15"/>
             <Entry Text="{Binding edad}" x:Name="txtedad1" Placeholder="Edad" Keyboard="Numeric" Margin="30,0,30,0" FontSize="15"/>
-            <Editor Text="{Binding correo}" x:Name="txtcorreo1" Placeholder="Direccion" Keyboard="Text" Margin="30,0,30,0" FontSize="15"/>
-            <Entry Text="{Binding direccion}" x:Name="txtdireccion1" Placeholder="Puesto" Keyboard="Text" Margin="30,0,30,30" FontSize="15"/>
+            <Editor Text="{Binding correo}" x:Name="txtcorreo1" Placeholder="correo" Keyboard="Text" Margin="30,0,30,0" FontSize="15"/>
+            <Entry Text="{Binding direccion}" x:Name="txtdireccion1" Placeholder="Direccion" Keyboard="Text" Margin="30,0,30,30" FontSize="15"/>
 
             <Button Text="Actualizar" x:Name="btnactualizar" Clicked="btnactualizar_Clicked" HorizontalOptions="Center" Background="#4A4ADA" TextColor="White" WidthRequest="200" Margin="0,30,0,0"/>
             <Button Text="Eliminar" x:Name="btneliminar" Clicked="btneliminar_Clicked" HorizontalOptions="Center" Background="#4A4ADA" TextColor="White" WidthRequest="200" Margin="0,30,0,0" />
